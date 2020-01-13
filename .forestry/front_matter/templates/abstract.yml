@@ -1,4 +1,18 @@
 ---
 label: abstract
 hide_body: false
-fields: []
+fields:
+- name: element_code
+  type: text
+  config:
+    required: false
+  label: Element Code
+- name: abstract_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Abstract Text
